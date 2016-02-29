@@ -1,0 +1,329 @@
+{
+  "bounds": [
+    -180,
+    -85.05112877980659,
+    180,
+    85.05112877980659
+  ],
+  "center": [
+    0,
+    0,
+    2
+  ],
+  "format": "png8",
+  "interactivity": {
+    "layer": "bystation",
+    "template_teaser": "<strong>Station Location:</strong> <br> {{{name}}}  <br> <strong>StationID:</strong> {{{terminal}}} <br> <strong>Ridership Count:</strong> {{{freq}}}",
+    "fields": [
+      "name",
+      "terminal",
+      "freq"
+    ]
+  },
+  "minzoom": 0,
+  "maxzoom": 22,
+  "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+  "Stylesheet": [
+    "style.mss"
+  ],
+  "Layer": [
+    {
+      "geometry": "polygon",
+      "extent": [
+        -179.14733999999999,
+        17.881242000000043,
+        179.77846500000032,
+        71.39048206440611
+      ],
+      "id": "us",
+      "class": "",
+      "Datasource": {
+        "file": "/Users/Wei/Documents/2016 Winter/advanced digital geographies/web mapping/neighborhood center/uscounty/us.shp"
+      },
+      "layer": null,
+      "srs-name": "WGS84",
+      "srs": "+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs",
+      "advanced": {},
+      "name": "us"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        -179.14733999999999,
+        17.881242000000043,
+        179.77846500000032,
+        71.39048206440613
+      ],
+      "id": "uscounties",
+      "class": "",
+      "Datasource": {
+        "file": "/Users/Wei/Documents/2016 Winter/advanced digital geographies/web mapping/neighborhood center/uscounty/uscounties.shp",
+        "id": "uscounties",
+        "project": "bikeshare",
+        "srs": "+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs"
+      },
+      "layer": null,
+      "srs-name": "WGS84",
+      "srs": "+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs",
+      "advanced": {},
+      "name": "uscounties"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        -122.54205521286767,
+        47.31757095655445,
+        -122.1856868549873,
+        47.77797270651926
+      ],
+      "id": "washingtonlake",
+      "class": "",
+      "Datasource": {
+        "file": "/Users/Wei/Documents/2016 Winter/advanced digital geographies/web mapping/neighborhood center/water/water.shp"
+      },
+      "layer": null,
+      "srs-name": "WGS84",
+      "srs": "+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs",
+      "advanced": {},
+      "name": "washingtonlake"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        -122.45472783936017,
+        47.48727839388861,
+        -122.22449239240154,
+        47.734413232130045
+      ],
+      "id": "lakeunion",
+      "class": "",
+      "Datasource": {
+        "file": "/Users/Wei/Documents/2016 Winter/advanced digital geographies/web mapping/neighborhood center/seattlewater1/water.shp"
+      },
+      "layer": null,
+      "srs-name": "WGS84",
+      "srs": "+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs",
+      "advanced": {},
+      "name": "lakeunion"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        -122.4359728907952,
+        47.49551941922944,
+        -122.23602145021468,
+        47.734170745976
+      ],
+      "id": "neigh",
+      "class": "",
+      "Datasource": {
+        "file": "/Users/Wei/Documents/2016 Winter/advanced digital geographies/web mapping/neighborhood center/neigh/neigh.shp",
+        "id": "neigh",
+        "project": "bikeshare",
+        "srs": "+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs"
+      },
+      "layer": null,
+      "srs-name": "WGS84",
+      "srs": "+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs",
+      "advanced": {},
+      "name": "neigh",
+      "status": "off"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        -122.43875296767527,
+        47.4955218281699,
+        -122.2363131487328,
+        47.734133894263884
+      ],
+      "id": "seattlenetwork",
+      "class": "",
+      "Datasource": {
+        "file": "/Users/Wei/Documents/2016 Winter/advanced digital geographies/web mapping/neighborhood center/seattlewater1/seattle.shp",
+        "id": "seattlenetwork",
+        "project": "bikeshare",
+        "srs": ""
+      },
+      "layer": null,
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "seattlenetwork"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        -122.44100595499998,
+        47.49551922200004,
+        -122.23583364999998,
+        47.734370291000076
+      ],
+      "id": "neighborhood",
+      "class": "",
+      "Datasource": {
+        "file": "/Users/Wei/Documents/2016 Winter/advanced digital geographies/web mapping/neighborhood center/new/Export_Output.shp",
+        "id": "neighborhood",
+        "project": "bikeshare",
+        "srs": "+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs"
+      },
+      "layer": null,
+      "srs-name": "WGS84",
+      "srs": "+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs",
+      "advanced": {},
+      "name": "neighborhood",
+      "status": "off"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        -122.43491391472308,
+        47.49646896941473,
+        -122.24689818511742,
+        47.73562953161279
+      ],
+      "id": "park",
+      "class": "",
+      "Datasource": {
+        "file": "/Users/Wei/Desktop/park/park.shp"
+      },
+      "layer": null,
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "park"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        -122.42908022607932,
+        47.442378450012015,
+        -122.22522915146159,
+        47.78008591273699
+      ],
+      "id": "building",
+      "class": "",
+      "Datasource": {
+        "file": "/Users/Wei/Desktop/webmapping/bldg/bldg.shp"
+      },
+      "layer": null,
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "building"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        -122.4318976153062,
+        47.44237686912225,
+        -122.2252666109263,
+        47.78013641157344
+      ],
+      "id": "rightofway",
+      "class": "",
+      "Datasource": {
+        "file": "/Users/Wei/Desktop/row/row.shp",
+        "id": "rightofway",
+        "project": "bikeshare",
+        "srs": ""
+      },
+      "layer": null,
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "rightofway"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        -122.435251684964,
+        47.44225621527216,
+        -122.22427286928267,
+        47.7802579809549
+      ],
+      "id": "landuse",
+      "class": "",
+      "Datasource": {
+        "file": "/Users/Wei/Desktop/parcel/parcel.shp",
+        "id": "landuse",
+        "project": "bikeshare",
+        "srs": ""
+      },
+      "layer": null,
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "landuse",
+      "status": "off"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        -122.36050472033816,
+        47.59238354110172,
+        -122.28673059302996,
+        47.67436229478972
+      ],
+      "id": "distr",
+      "class": "",
+      "Datasource": {
+        "file": "/Users/Wei/Documents/2016 Winter/advanced digital geographies/web mapping/neighborhood center/4dis/distr.shp",
+        "id": "distr",
+        "project": "bikeshare",
+        "srs": "+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs"
+      },
+      "layer": null,
+      "srs-name": "WGS84",
+      "srs": "+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs",
+      "advanced": {},
+      "name": "distr"
+    },
+    {
+      "geometry": "linestring",
+      "extent": [
+        -122.41536175547355,
+        47.45239007783425,
+        -122.22391296979902,
+        47.73581141074433
+      ],
+      "id": "bikelane",
+      "class": "",
+      "Datasource": {
+        "file": "/Users/Wei/Desktop/webmapping/bike/bike.shp"
+      },
+      "layer": null,
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "bikelane"
+    },
+    {
+      "geometry": "point",
+      "extent": [
+        -122.35523,
+        47.598488,
+        -122.284119,
+        47.666145
+      ],
+      "id": "bystation",
+      "class": "",
+      "Datasource": {
+        "file": "/Users/Wei/Desktop/bystation.csv",
+        "id": "bystation",
+        "project": "bikeshare",
+        "srs": "+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs"
+      },
+      "layer": null,
+      "srs-name": "WGS84",
+      "srs": "+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs",
+      "advanced": {},
+      "name": "bystation"
+    }
+  ],
+  "scale": 1,
+  "metatile": 2,
+  "name": "",
+  "description": "",
+  "legend": "<div class='my-legend'>\n<div class='legend-title'>Total Bike Share Count in Each Station From 10/13/2014 to 10/12/2015 in Seattle</div>\n<div class='legend-scale'>\n  <ul class='legend-labels'>\n    <li><span style='background:#00DA3C;'></span>Circle size indicates magnitude of ridership</li>\n  </ul>\n</div>\n</div>\n\n<style type='text/css'>\n  .my-legend .legend-title {\n    text-align: left;\n    margin-bottom: 5px;\n    font-weight: bold;\n    font-size: 90%;\n    }\n  .my-legend .legend-scale ul {\n    margin: 0;\n    margin-bottom: 5px;\n    padding: 0;\n    float: left;\n    list-style: none;\n    }\n  .my-legend .legend-scale ul li {\n    font-size: 80%;\n    list-style: none;\n    margin-left: 0;\n    line-height: 18px;\n    margin-bottom: 2px;\n    }\n  .my-legend ul.legend-labels li span {\n    border-radius: 50%/50%;\n    display: block;\n    float: left;\n    height: 16px;\n    width: 16px;\n    margin-right: 5px;\n    margin-left: 0;\n    border: 1px solid #B8FD99;\n    }\n  .my-legend .legend-source {\n    font-size: 70%;\n    color: #999;\n    clear: both;\n    }\n  .my-legend a {\n    color: #777;\n    }\n</style>"
+}
