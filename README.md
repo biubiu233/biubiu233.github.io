@@ -1,4 +1,4 @@
-# biubiu233.github.io
+# Web Mapping Lab
 Web Mapping Lab
 This map shows the number of people using bike in each station from October 13th, 2014, to October 12th, 2015. The bike data is available online, and the basemap data I used are from WAGDA.
 The orange line indicates bike lanes. 
